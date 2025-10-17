@@ -60,28 +60,33 @@ def book_appointment(name, contact, treatment, date, time):
 # STREAMLIT UI
 # ==============================
 st.set_page_config(page_title="Elite Body Home Clinic Chatbot", page_icon="💬")
-st.title("💬 Elite Body Home Clinic Chatbot (Offline, PyTorch)")
 
-tabs = st.tabs(["Chat", "Book Appointment"])
+tabs = st.tabs(["💬 Chat", "🗓️ Book Appointment"])
 
+# ------------------------------
+# CHAT TAB
+# ------------------------------
 with tabs[0]:
-    user_input = st.text_input("Ask me anything about our clinic or services:")
-    if st.button("Send", use_container_width=True):
-        if not user_input.strip():
-            st.warning("Please type a question.")
+    st.subheader("Chat with Elite Body Home Bot")
+    user_input = st.text_input("Ask here:")
+    if st.button("Send"):
+        if user_input.strip():
+            response = chatbot_response(user_input)
+            st.write(response)
         else:
-            with st.spinner("Thinking..."):
-                reply = chatbot_response(user_input)
-            st.success("Bot:")
-            st.write(reply)
+            st.warning("Please type something to ask.")
 
+# ------------------------------
+# BOOKING TAB
+# ------------------------------
 with tabs[1]:
-    st.subheader("🗓️ Book an Appointment")
+    st.subheader("Book an Appointment")
     name = st.text_input("Full Name")
     contact = st.text_input("Contact Info")
     treatment = st.selectbox("Treatment", [d["name"] for d in data if d["category"] == "service"])
     date = st.date_input("Preferred Date", datetime.date.today())
     time = st.time_input("Preferred Time", datetime.time(10, 0))
+    
     if st.button("Book Appointment", use_container_width=True):
         if not name or not contact:
             st.error("Please fill all fields.")
