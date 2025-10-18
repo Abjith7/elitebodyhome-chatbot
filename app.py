@@ -1,4 +1,8 @@
 import streamlit as st
+
+# 🧠 MUST BE FIRST Streamlit command
+st.set_page_config(page_title="Elite Body Home Clinic Chatbot", page_icon="💬")
+
 import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -59,8 +63,6 @@ def book_appointment(name, contact, treatment, date, time):
 # ==============================
 # STREAMLIT UI
 # ==============================
-st.set_page_config(page_title="Elite Body Home Clinic Chatbot", page_icon="💬")
-
 tabs = st.tabs(["💬 Chat", "🗓️ Book Appointment"])
 
 # ------------------------------
