@@ -1,242 +1,88 @@
 [
   {
-    "category": "general",
-    "question": "What is Elite Body Home Polyclinic?",
-    "answer": "Elite Body Home Polyclinic is a health and beauty hub offering expert care across multiple specialties, including aesthetics, dermatology, laser treatments, slimming, physiotherapy, and IV therapy."
-  },
-  {
-    "category": "general",
-    "question": "Why choose Elite Body Home?",
-    "answer": "Elite Body Home provides a comfortable and professional environment where your well-being comes first. Experienced professionals offer personalized attention using advanced methods to help you feel confident and supported."
-  },
-  {
-    "category": "general",
-    "question": "How much experience does Elite Body Home have?",
-    "answer": "Elite Body Home has over 25 years of experience in providing beauty and health solutions."
-  },
-  {
-    "category": "general",
-    "question": "How do I book a consultation?",
-    "answer": "You can book a consultation online via www.elitebodyhome.com or contact us directly at +91 98765 43210 to schedule an appointment."
-  },
-  {
-    "category": "general",
-    "question": "What are your working hours?",
-    "answer": "We are open from 10 AM to 7 PM, Monday to Saturday."
-  },
-  {
-    "category": "general",
-    "question": "Do you provide home services?",
-    "answer": "Yes, Elite Body Home provides selected home services for physiotherapy and wellness consultations. Please call to confirm availability."
-  },
-  {
-    "category": "general",
-    "question": "Do you accept insurance?",
-    "answer": "Yes, we accept major health insurance plans. Please bring your insurance card during the first visit."
-  },
-  {
-    "category": "general",
-    "question": "What COVID-19 safety measures do you follow?",
-    "answer": "We follow strict sanitization protocols, mask requirements, and social distancing. Staff are fully vaccinated."
+    "category": "service",
+    "id": "svc_beauty_therapy",
+    "name": "Beauty Therapy Course",
+    "details": "A 1-year program covering comprehensive beauty therapy skills. Price: AED 24,999.",
+    "keywords": ["beauty therapy", "course", "training", "skills"]
   },
   {
     "category": "service",
-    "name": "Weight Loss & Fat Burning",
-    "details": "Comprehensive weight loss programs including lifestyle guidance: eat right, stay active, sleep better, and light maintenance sessions to maintain a slim look."
+    "id": "svc_cidesco",
+    "name": "CIDESCO Beauty and Spa Management",
+    "details": "A 3-month intensive course in Beauty & Spa Management. Price: AED 5,999.",
+    "keywords": ["CIDESCO", "spa", "management", "beauty"]
   },
   {
     "category": "service",
-    "name": "GLP-1 Injection Weight Loss",
-    "details": "Injectables like Ozempic and Wegovy work on GLP-1 and GIP receptors in the brain and digestive system to reduce appetite and slow digestion, aiding sustainable weight loss alongside a healthy diet and exercise."
+    "id": "svc_madero_body",
+    "name": "Madero Body Massage Course",
+    "details": "A 3-day practical training in Madero body massage techniques. Price: AED 3,999.",
+    "keywords": ["madero", "massage", "body", "training"]
   },
   {
     "category": "service",
-    "name": "IV Drip Therapy for Slimming",
-    "details": "IV drip sessions deliver vitamins and fluids to boost metabolism and energy during weight loss. Available under medical supervision at Elite Body Home Dubai."
+    "id": "svc_madero_face",
+    "name": "Madero Face Massage Course",
+    "details": "A 1-day course for advanced Madero facial massage techniques. Price: AED 1,999.",
+    "keywords": ["madero", "face", "massage", "facial"]
   },
   {
     "category": "service",
-    "name": "Laser Hair Removal",
-    "details": "Permanent hair reduction using advanced laser technology. Suitable for all skin types. Sessions: 6–8 on average."
+    "id": "svc_electrical_facial",
+    "name": "Electrical Facial Course",
+    "details": "Learn advanced electrical facial treatments in this 1-day course.",
+    "keywords": ["facial", "electrical", "skin", "treatment"]
   },
   {
     "category": "service",
-    "name": "Skin Rejuvenation",
-    "details": "Personalized treatments to restore and maintain healthy, radiant skin using non-invasive methods."
-  },
-  {
-    "category": "service",
-    "name": "Body Sculpting",
-    "details": "Non-surgical fat reduction and body contouring using radio-frequency and ultrasound technology. Duration: 30–45 minutes per session."
-  },
-  {
-    "category": "service",
-    "name": "Facial Rejuvenation",
-    "details": "Deep cleansing, hydration, and anti-aging treatments for healthy skin. Recommended monthly sessions."
-  },
-  {
-    "category": "service",
-    "name": "Physiotherapy",
-    "details": "Personalized physiotherapy sessions to treat pain and improve mobility. Duration: 45 minutes per session. Frequency: 2–3 per week."
-  },
-  {
-    "category": "service",
-    "name": "Nutrition Counseling",
-    "details": "Customized diet plans and lifestyle guidance from certified nutritionists. Duration: 30–60 minutes per session."
-  },
-  {
-    "category": "service",
-    "name": "IV Therapy",
-    "details": "Customized intravenous vitamin and nutrient therapy to support overall wellness and recovery."
+    "id": "svc_dermaplaning",
+    "name": "Dermaplaning Course",
+    "details": "A 1-day course teaching dermaplaning technique for skin exfoliation.",
+    "keywords": ["dermaplaning", "facial", "skin", "exfoliation"]
   },
   {
     "category": "general",
-    "question": "How do I maintain my slim look?",
-    "answer": "Eat right, stay active, get enough sleep, and follow light maintenance sessions for sustainable weight management."
-  },
-  {
-    "category": "tip",
-    "question": "Do GLP-1 injections burn fat directly?",
-    "answer": "No, GLP-1 injections help control appetite and digestion, but actual fat loss requires a healthy diet and regular exercise."
-  },
-  {
-    "category": "tip",
-    "question": "Are IV slimming drips safe?",
-    "answer": "Yes, when administered under medical supervision, IV drips are safe and help support metabolism and energy during weight loss."
-  },
-  {
-    "category": "tip",
-    "question": "How can I maintain healthy skin at home?",
-    "answer": "Drink plenty of water, use sunscreen daily, and follow a balanced diet. Avoid excessive sun exposure."
-  },
-  {
-    "category": "tip",
-    "question": "How can I reduce body fat naturally?",
-    "answer": "Combine regular exercise, a balanced diet, and sufficient sleep. Avoid crash diets and excessive sugar."
+    "question": "What are your academy timings?",
+    "answer": "We are open Sunday to Thursday from 10:00 AM to 6:00 PM, and Saturday from 10:00 AM to 4:00 PM (Dubai time)."
   },
   {
     "category": "general",
-    "question": "Do you offer non-invasive treatments?",
-    "answer": "Yes, Elite Body Home specializes in non-invasive treatments including laser, skin rejuvenation, body sculpting, and IV therapy."
+    "question": "Where is EBH Academy located?",
+    "answer": "EBH Academy is located at 117, Block B, Al Hudaiba Awards Building, Jumeirah 1, Dubai, U.A.E."
   },
   {
     "category": "general",
-    "question": "What makes your specialists qualified?",
-    "answer": "Our specialists are highly qualified professionals focused on client results, providing personalized beauty and skin solutions."
+    "question": "How can I contact you?",
+    "answer": "You can reach us at +971 56 390 0330 or email sameer@ebhacademy.com."
   },
   {
-    "category": "service",
-    "name": "Facial Treatments",
-    "details": "Includes anti-aging, deep cleansing, and hydration facials customized for different skin types."
-  },
-  {
-    "category": "service",
-    "name": "Slimming Packages",
-    "details": "Customized programs combining diet, exercise guidance, and treatments for optimal results."
-  },
-  {
-    "category": "service",
-    "name": "Laser Skin Treatments",
-    "details": "Target pigmentation, scars, and skin irregularities using advanced laser technology for all skin types."
-  },
-  {
-    "category": "tip",
-    "question": "How to support your metabolism?",
-    "answer": "Stay hydrated, include protein-rich foods, do regular physical activity, and get enough sleep."
-  },
-  {
-    "category": "tip",
-    "question": "Tips for glowing skin?",
-    "answer": "Use sunscreen, stay hydrated, eat fresh fruits and vegetables, and follow a regular skincare routine."
+    "category": "booking",
+    "question": "How do I book a course?",
+    "answer": "You can book directly in this chat. Tell me the course name, your preferred date, and time; I'll handle the rest."
   },
   {
     "category": "general",
-    "question": "Can I do multiple treatments at the same time?",
-    "answer": "Yes, treatments can be combined based on consultation and your individual health profile."
+    "question": "What courses do you offer?",
+    "answer": "We offer courses like Beauty Therapy, CIDESCO Spa Management, Madero Body & Face Massage, Dermaplaning, Lash Lifting, and more. Which one are you interested in?"
   },
   {
-    "category": "general",
-    "question": "Do you provide follow-ups?",
-    "answer": "Yes, follow-ups are scheduled as needed to ensure optimal results and client satisfaction."
+    "category": "smalltalk",
+    "id": "greet",
+    "examples": ["hi", "hello", "hey", "good morning", "good evening"],
+    "responses": ["Hi there!  Welcome to EBH Academy. How can I assist you today?", "Hello! Excited to explore beauty courses?"]
   },
   {
-    "category": "tip",
-    "question": "How to stay active daily?",
-    "answer": "Incorporate short walks, stretching, and light exercises into your daily routine. Consistency matters more than intensity."
+    "category": "smalltalk",
+    "id": "positive",
+    "examples": ["i'm good", "feeling great", "excited"],
+    "responses": ["That’s great!  Which course are you interested in?", "Awesome! Let me show you our courses."]
   },
   {
-    "category": "tip",
-    "question": "Best diet tips for weight loss?",
-    "answer": "Eat whole foods, control portion sizes, limit sugar and processed foods, and drink plenty of water."
-  },
-  {
-    "category": "service",
-    "name": "Dermatology Consultations",
-    "details": "Expert consultations for acne, pigmentation, hair loss, and other skin conditions."
-  },
-  {
-    "category": "general",
-    "question": "Do you have insurance partners?",
-    "answer": "Yes, Elite Body Home works with major insurance providers for eligible treatments."
-  },
-  {
-    "category": "service",
-    "name": "Anti-Aging Therapy",
-    "details": "Non-invasive therapies to reduce wrinkles and improve skin elasticity using modern dermatology techniques."
-  },
-  {
-    "category": "tip",
-    "question": "How to recover faster after treatment?",
-    "answer": "Follow post-treatment care instructions, stay hydrated, and avoid sun exposure for sensitive treatments."
-  },
-  {
-    "category": "service",
-    "name": "Hair Treatments",
-    "details": "Hair strengthening and growth-promoting therapies using professional techniques."
-  },
-  {
-    "category": "general",
-    "question": "Where can I read articles and posts?",
-    "answer": "Latest posts, articles, and tips are available on our website under the 'Blog' section."
-  },
-  {
-    "category": "general",
-    "question": "Do you collaborate with brands?",
-    "answer": "Yes, Elite Body Home collaborates with trusted beauty and wellness brands to provide high-quality treatments."
-  },
-  {
-    "category": "service",
-    "name": "IV Vitamin Therapy",
-    "details": "Customized IV vitamin infusions to boost immunity, energy, and overall wellness."
-  },
-  {
-    "category": "service",
-    "name": "Personalized Skincare",
-    "details": "Tailored skincare routines based on skin type, condition, and client goals."
-  },
-  {
-    "category": "tip",
-    "question": "How to improve skin elasticity?",
-    "answer": "Maintain hydration, use nourishing skincare, include protein and vitamin C in your diet, and consider professional non-invasive therapies."
-  },
-  {
-    "category": "tip",
-    "question": "How to reduce cellulite?",
-    "answer": "Combine exercise, hydration, balanced diet, and professional body sculpting treatments."
-  },
-  {
-    "category": "tip",
-    "question": "How to maintain mental wellness?",
-    "answer": "Practice mindfulness, regular exercise, sleep well, and maintain a healthy social life."
-  },
-  {
-    "category": "general",
-    "question": "How do I contact Elite Body Home?",
-    "answer": "Call +91 98765 43210 or email info@elitebodyhome.com for inquiries or appointments."
-  },
-  {
-    "category": "tip",
-    "question": "How to stay motivated for fitness?",
-    "answer": "Set realistic goals, track progress, mix up activities, and reward yourself for milestones."
+    "category": "smalltalk",
+    "id": "thanks",
+    "examples": ["thank you", "thanks"],
+    "responses": ["You're welcome!  Anything else you'd like to know?", "My pleasure! Want to see our courses?"]
   }
+
 ]
